@@ -38,11 +38,11 @@ import workSmall9 from "../assets/images/work_images/small/9.jpg";
 // import blogSmall3 from "../assets/images/blog_images/small/3.jpg";
 // import blogSmall5 from "../assets/images/blog_images/small/5.jpg";
 
-import img1 from "../assets/images/slider/brand-1.png";
-import img2 from "../assets/images/slider/brand-2.png";
-import img3 from "../assets/images/slider/brand-3.png";
-import img4 from "../assets/images/slider/brand-4.png";
-import img5 from "../assets/images/slider/brand-5.png";
+// import img1 from "../assets/images/slider/brand-1.png";
+// import img2 from "../assets/images/slider/brand-2.png";
+// import img3 from "../assets/images/slider/brand-3.png";
+// import img4 from "../assets/images/slider/brand-4.png";
+// import img5 from "../assets/images/slider/brand-5.png";
 //  icon use as img here
 import javascript from "../assets/images/icons/javascript.svg";
 import bootstrap from "../assets/images/icons/bootstrap.svg";
@@ -436,19 +436,19 @@ const AllData = () => {
     },
   ];
 
-  // Slider image for Clients
-  const sliderImg = [
-    img1,
-    img2,
-    img3,
-    img4,
-    img5,
-    img1,
-    img2,
-    img3,
-    img4,
-    img5,
-  ];
+  // Slider image for sliderImg
+  // const sliderImg = [
+  //   img1,
+  //   img2,
+  //   img3,
+  //   img4,
+  //   img5,
+  //   img1,
+  //   img2,
+  //   img3,
+  //   img4,
+  //   img5,
+  // ];
 
   // experience items for about page
   const experienceArray = [
@@ -678,7 +678,7 @@ const AllData = () => {
     NavLink,
     menuItemTwo,
     experienceArray,
-    sliderImg,
+    // sliderImg,
     resumeArray,
     lineArray,
     contactArray,

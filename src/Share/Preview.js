@@ -1,5 +1,4 @@
 import React from "react";
-import logo from "../assets/images/logo/logo-preview.png";
 import homeonelight from "../assets/images/preview/homeonelight.png";
 import homeonedark from "../assets/images/preview/homeonedark.png";
 import hometwolight from "../assets/images/preview/hometwolight.png";
@@ -136,13 +135,7 @@ const Preview = () => {
       <PageTitle title="Preview"></PageTitle>
       <section className="bg-previewBg bg-no-repeat bg-center  bg-cover">
         <div className="text-center pt-[100px] pb-[90px] h-[80vh] md:h-[100vh] flex items-center justify-center flex-col">
-          {/* Site logo */}
-          <img
-            className="inline-block h-[26px] lg:h-[46px]"
-            src={logo}
-            alt="logo"
-            data-aos="fade"
-          />
+       
           <p
             className="font-extrabold text-[22px] md:text-[26px] xl:text-[32px] 2xl:text-[42px] text-white pt-[20px] "
             data-aos="fade"
