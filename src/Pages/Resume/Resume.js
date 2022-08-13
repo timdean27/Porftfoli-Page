@@ -56,17 +56,10 @@ const Resume = () => {
                 {/* Knowledges items */}
 
                 <div className="flex gap-x-3 gap-y-3 md:gap-y-6 md:gap-x-4 flex-wrap">
-                  <button className="resume-btn">Digital Design</button>
                   <button className="resume-btn">Marketing</button>
-                  <button className="resume-btn">Social Media</button>
                   <button className="resume-btn">Print</button>
                   <button className="resume-btn">Time Management</button>
-                  <button className="resume-btn">Flexibility</button>
-                  <button className="resume-btn">Print</button>
-                  <button className="resume-btn">Print</button>
-                  <button className="resume-btn">Time Management</button>
-                  <button className="resume-btn">Flexibility</button>
-                  <button className="resume-btn">Print</button>
+                
                 </div>
               </div>
             </div>

@@ -557,7 +557,7 @@ const AllData = () => {
 
       id1: "02",
       date1: "2010-2016",
-      title1: "BS in Business Management / Minor in Accounting",
+      title1: "BS in Business Management / Minor in Accounting & Applied Mathematics",
       place1: "Stony Brook University ",
       bg1: "#FFF1FB",
 
@@ -583,27 +583,27 @@ const AllData = () => {
       bg1: "#F2F4FF",
 
     },
-    {
-      type: "Awards",
-      icon: FaAward,
-      id: "07",
-      date: "2015-2017",
-      title: "  Graphic Designer",
-      place: "Web Graphy, Los Angeles, CA",
-      bg: "#FCF4FF",
+    // {
+    //   type: "Awards",
+    //   icon: FaAward,
+    //   id: "07",
+    //   date: "2015-2017",
+    //   title: "  Graphic Designer",
+    //   place: "Web Graphy, Los Angeles, CA",
+    //   bg: "#FCF4FF",
 
-      id1: "08",
-      date1: "2014 - 2015",
-      title1: "Jr. Web Developer",
-      place1: "Creative Gigs.",
-      bg1: "#FCF9F2",
+    //   id1: "08",
+    //   date1: "2014 - 2015",
+    //   title1: "Jr. Web Developer",
+    //   place1: "Creative Gigs.",
+    //   bg1: "#FCF9F2",
 
-      id2: "09",
-      date2: "2015-2017",
-      title2: "Best Freelancer",
-      place2: "Fiver & Upwork Level 2 & Top Rated",
-      bg2: "#FCF4FF",
-    },
+    //   id2: "09",
+    //   date2: "2015-2017",
+    //   title2: "Best Freelancer",
+    //   place2: "Fiver & Upwork Level 2 & Top Rated",
+    //   bg2: "#FCF4FF",
+    // },
   ];
 
   // Working Skills items for Resume page
@@ -626,12 +626,12 @@ const AllData = () => {
     //   name: "Illustrator",
     //   number: "100",
     // },
-    {
-      id: "03",
-      color: "#CA56F2",
-      name: "Excell",
-      number: "100",
-    },
+    // {
+    //   id: "03",
+    //   color: "#CA56F2",
+    //   name: "Excell",
+    //   number: "100",
+    // },
   ];
 
   // Personal information for contact pages
