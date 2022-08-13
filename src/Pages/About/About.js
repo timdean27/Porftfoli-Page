@@ -7,7 +7,7 @@ import {
 } from "react-icons/fa";
 import "slick-carousel/slick/slick-theme.css";
 import "slick-carousel/slick/slick.css";
-import aboutImage from "../../assets/images/about/about.jpg";
+import ProfilePicTwo from "../../assets/images/about/ProfilePicTwo.jpg";
 import "../../Share/Style.css";
 import Footer from "../../Share/Footer";
 import UseData from "../../Hooks/UseData";
@@ -35,7 +35,7 @@ const About = () => {
                   {/* personal images for about page  */}
                   <img
                     className="w-full md:w-[330px] md:h-[400px] object-cover overflow-hidden rounded-[35px] mb-3 md:mb-0"
-                    src={aboutImage}
+                    src={ProfilePicTwo}
                     alt=""
                   />
                 </div>
