@@ -10,8 +10,8 @@ import work7 from "../assets/images/work_images/7.jpg";
 import work8 from "../assets/images/work_images/8.jpg";
 import work9 from "../assets/images/work_images/9.jpg";
 import checkers from "../assets/images/work_images/Checkersgiphy - Copy.gif";
-import sneakers from "../assets/images/work_images/Pro-folio-app - Copy.gif";
-import profolio from "../assets/images/work_images/SneakersAppgiphy - Copy.gif";
+import profolio from "../assets/images/work_images/Pro-folio-app - Copy.gif";
+import sneakers from "../assets/images/work_images/SneakersAppgiphy - Copy.gif";
 // works small images
 import workSmall1 from "../assets/images/work_images/small/1.jpg";
 import workSmall2 from "../assets/images/work_images/small/2.jpg";
@@ -160,7 +160,7 @@ const AllData = () => {
       tag: "Web Design",
       title: "Just Checkers",
       img: checkers,
-      imgSmall: workSmall1,
+      imgSmall: checkers,
       bg: "#FFF0F0",
       //client: "Envato",
       langages: "JavaScript, CSS3, HTML5",
@@ -192,7 +192,7 @@ const AllData = () => {
       tag: "Web Design",
       title: "Sneakers-Collection-App",
       img: sneakers,
-      imgSmall: workSmall3,
+      imgSmall: sneakers,
       bg: "#FFF0F0",
       client: "Freepik",
       langages: "JS, Express, MongoDB,EJS",
@@ -208,7 +208,7 @@ const AllData = () => {
       tag: "Web Design",
       title: "Profolio",
       img: profolio,
-      imgSmall: workSmall4,
+      imgSmall: profolio,
       bg: "#E9FAFF",
       client: "Envato",
       langages: "React.js,Expres,emailJS",
