@@ -109,14 +109,14 @@ const About = () => {
                         <span className="text-color-50 dark:bg-color-990 shadow-icon mr-2.5 flex items-center justify-center rounded-md text-2xl w-12 text-">
                           <FaRegCalendarAlt />
                         </span>
-                        <div className="space-y-1">
+                         {/*<div className="space-y-1">
                           <p className="text-xs text-gray-lite dark:text-color-910">
                             Birthday
                           </p>
                           <h6 className="font-medium dark:text-white">
                           April 15, 1992
                           </h6>
-                        </div>
+                        </div>*/}
                       </div>
                     </div>
                   </div>
