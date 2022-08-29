@@ -9,6 +9,7 @@ import work6 from "../assets/images/work_images/6.jpg";
 import work7 from "../assets/images/work_images/7.jpg";
 import work8 from "../assets/images/work_images/8.jpg";
 import work9 from "../assets/images/work_images/9.jpg";
+import fooder1 from "../assets/images/work_images/fooder1.gif";
 import checkers from "../assets/images/work_images/Checkersgiphy - Copy.gif";
 import profolio from "../assets/images/work_images/Pro-folio-app - Copy.gif";
 import sneakers from "../assets/images/work_images/SneakersAppgiphy - Copy.gif";
@@ -175,12 +176,12 @@ const AllData = () => {
       id: "2",
       tag: "Web Design",
       title: "Try FooDer",
-      img: work2,
-      imgSmall: workSmall2,
+      img: fooder1,
+      imgSmall: fooder1,
       bg: "#FFF3FC",
       // client: "Themeforest",
       langages: "React, Django, Express ,PostgreSQL ,Python",
-      link: "https://pro-folio-njt.netlify.app/",
+      link: "https://use-fooder-app.netlify.app/",
       linkText: "Try FooDer",
       github:"https://github.com/timdean27/FooDer-frontend",
       githubText:"FooDer Front End Github",
