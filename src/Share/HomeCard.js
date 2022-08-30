@@ -136,12 +136,12 @@ const HomeCard = () => {
               <span className="socialbtn bg-white dark:bg-black text-[#C17CEB] shadow-md">
                 <FaCalendarAlt />
               </span>
-              <div className="text-left ml-2.5">
+              {/*<div className="text-left ml-2.5">
                 <p className="text-xs text-[#44566C] dark:text-[#A6A6A6]">
                   Birthday
                 </p>
                 <p className="dark:text-white">April  15, 1992</p>
-              </div>
+              </div>*/}
             </div>
           </div>
           {/*<button className="flex items-center mx-auto bg-gradient-to-r from-[#FA5252] to-[#DD2476] duration-200 transition ease-linear hover:bg-gradient-to-l from-[#DD2476]  to-[#fa5252ef] px-8 py-3 text-lg text-white rounded-[35px] mt-6">
