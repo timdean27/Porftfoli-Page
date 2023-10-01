@@ -101,7 +101,7 @@ const About = () => {
                             Email
                           </p>
                           <h6 className="font-medium dark:text-white">
-                          timdean29@gmail.com
+                          timdeanSE@gmail.com
                           </h6>
                         </div>
                       </div>
