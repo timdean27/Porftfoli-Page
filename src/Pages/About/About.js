@@ -20,7 +20,7 @@ const About = () => {
   return (
     <>
       <PageTitle title="About"></PageTitle>
-      {/* End pagetitle */}
+      {}
 
       <section>
         <div className="container lg:rounded-2xl bg-white dark:bg-[#111111]  px-4 sm:px-5 md:px-10 lg:px-20">
