@@ -49,7 +49,7 @@ function App() {
               <Route path="resume" element={<ResumeTwo />} />
               <Route path="contact" element={<ContactTwo />} />
               {/*<Route path="blogs" element={<BlogTwo />} />*/}
-              <Route path="works" element={<PortfiloTwo />} />
+              <Route path="projects" element={<PortfiloTwo />} />
             </Route>
             <Route path="*" element={<NotFound />} />
           </Routes>
