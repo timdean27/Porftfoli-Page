@@ -36,15 +36,7 @@ const HomeCard = () => {
 
           <div className="flex justify-center space-x-3">
             {/* facebook link add here */}
-            {/*<a
-              href="https://www.facebook.com/"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <span className="socialbtn text-[#1773EA]">
-                <FaFacebookF />
-              </span>
-            </a>*/}
+        
             {/* twitter link add here */}
             <a
               href="https://twitter.com/"
@@ -56,15 +48,7 @@ const HomeCard = () => {
               </span>
             </a>
             {/* drop link add here */}
-            {/*<a
-              href="https://dribbble.com/"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <span className="socialbtn text-[#e14a84] ">
-                <FaDribbble />
-              </span>
-            </a>*/}
+          
             {/* Github link add here */}
             <a
               href="https://github.com/timdean27"
@@ -87,7 +71,7 @@ const HomeCard = () => {
               </span>
             </a>
             <a
-              href="https://docs.google.com/document/d/1oiPRIH5rVmyBK1I08IL1n6MH4Ezs1ZYs_ei-PlhTRNc/edit"
+              href="https://docs.google.com/document/d/1Jjnd8ohII9qCg0LtGIXJze725eRwi8Cu/edit"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -118,7 +102,7 @@ const HomeCard = () => {
                 <p className="text-xs text-[#44566C] dark:text-[#A6A6A6]">
                   Email
                 </p>
-                <p className="dark:text-white">timdean29@gmail.com</p>
+                <p className="dark:text-white">timdeanSE@gmail.com</p>
               </div>
             </div>
             <div className="flex border-b border-[#E3E3E3] dark:border-[#3D3A3A] py-2.5">
