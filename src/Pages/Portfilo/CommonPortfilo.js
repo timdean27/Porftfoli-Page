@@ -69,40 +69,6 @@ const CommonPortfilo = ({ condition, items }) => {
                 >
                   Projects
                 </li>
-                {/*<li
-                  className={`${
-                    test === "Video" ? "text-[#FA5252]" : "fillter-btn"
-                  } mr-4 md:mx-4`}
-                  onClick={() => handleSearch("Video")}
-                >
-                
-                  Video
-                </li>
-                <li
-                  className={`${
-                    test === "Web Design" ? "text-[#FA5252]" : "fillter-btn"
-                  } mr-4 md:mx-4`}
-                  onClick={() => handleSearch("Web Design")}
-                >
-                  Web Design
-                </li>
-                <li
-                  className={`${
-                    test === "Logo" ? "text-[#FA5252]" : "fillter-btn ml-0"
-                  } mr-4 md:mx-4`}
-                  onClick={() => handleSearch("Logo")}
-                >
-                  Logo
-                </li>
-                <li
-                  className={`${
-                    test === "UI/UX" ? "text-[#FA5252]" : "fillter-btn"
-                  }  `}
-                  onClick={() => handleSearch("UI/UX")}
-                >
-                  Graphic Design
-                </li>
-                */}
               </ul>
 
               {/* Portfilo fillter tab start */}
@@ -133,9 +99,7 @@ const CommonPortfilo = ({ condition, items }) => {
                       alt=""
                     />
                   </div>
-                  {/*<span className="pt-5 text-[14px] font-normal text-gray-lite block dark:text-[#A6A6A6]">
-                    {item?.tag}
-                  </span>*/}
+ 
                   <h2
                     onClick={() => handleModle(item.id)}
                     className="font-medium cursor-pointer text-xl duration-300 transition hover:text-[#FA5252] dark:hover:text-[#FA5252] dark:text-white mt-2"
@@ -188,13 +152,6 @@ const CommonPortfilo = ({ condition, items }) => {
                       </p>
                     </div>
                     <div className="space-y-2">
-                    {/*<p className="dark:text-white flex items-center mt-2 lg:mt-0 text-[15px]  sm:text-lg ">
-                        <FiUser className="text-lg mr-2 hidden sm:block" />
-                        Client :&nbsp;
-                        <span className="font-medium ">
-                          {singleData?.client}
-                        </span>
-                </p>*/}
                       <p className="dark:text-white flex items-center text-[15px] sm:text-lg ">
                         <FiExternalLink className="text-lg mr-2 hidden sm:block" />
                         Preview :&nbsp;

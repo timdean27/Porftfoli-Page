@@ -36,18 +36,6 @@ const HomeCard = () => {
 
           <div className="flex justify-center space-x-3">
             {/* facebook link add here */}
-        
-            {/* twitter link add here */}
-            <a
-              href="https://twitter.com/"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <span className="socialbtn text-[#1C9CEA]">
-                <FaTwitter />
-              </span>
-            </a>
-            {/* drop link add here */}
           
             {/* Github link add here */}
             <a
@@ -71,7 +59,7 @@ const HomeCard = () => {
               </span>
             </a>
             <a
-              href="https://docs.google.com/document/d/1Jjnd8ohII9qCg0LtGIXJze725eRwi8Cu/edit"
+              href="https://docs.google.com/document/d/1MS_K-Ead2jcw-TG3Yg9GPnyi-aac15e1-FOI5Uer5jY/edit?usp=sharing"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -83,17 +71,7 @@ const HomeCard = () => {
 
           {/* personal information */}
           <div className="p-7 rounded-2xl mt-7  bg-[#F3F6F6] dark:bg-[#1D1D1D]">
-            <div className="flex border-b border-[#E3E3E3] dark:border-[#3D3A3A] pb-2.5">
-              <span className="socialbtn bg-white dark:bg-black text-[#E93B81] shadow-md">
-                <FaMobileAlt />
-              </span>
-              <div className="text-left ml-2.5">
-                <p className="text-xs text-[#44566C] dark:text-[#A6A6A6]">
-                  Phone
-                </p>
-                <p className="dark:text-white">+631 742 7250</p>
-              </div>
-            </div>
+
             <div className="flex border-b border-[#E3E3E3] dark:border-[#3D3A3A] py-2.5">
               <span className="socialbtn bg-white dark:bg-black text-[#6AB5B9] shadow-md">
                 <FaEnvelopeOpenText />
@@ -102,7 +80,7 @@ const HomeCard = () => {
                 <p className="text-xs text-[#44566C] dark:text-[#A6A6A6]">
                   Email
                 </p>
-                <p className="dark:text-white">timdeanSE@gmail.com</p>
+                <p className="dark:text-white">timdean29@gmail.com</p>
               </div>
             </div>
             <div className="flex border-b border-[#E3E3E3] dark:border-[#3D3A3A] py-2.5">
@@ -116,22 +94,9 @@ const HomeCard = () => {
                 <p className="dark:text-white">East Northport, New York, United States</p>
               </div>
             </div>
-            <div className="flex  py-2.5">
-              <span className="socialbtn bg-white dark:bg-black text-[#C17CEB] shadow-md">
-                <FaCalendarAlt />
-              </span>
-              {/*<div className="text-left ml-2.5">
-                <p className="text-xs text-[#44566C] dark:text-[#A6A6A6]">
-                  Birthday
-                </p>
-                <p className="dark:text-white">April  15, 1992</p>
-              </div>*/}
-            </div>
+
           </div>
-          {/*<button className="flex items-center mx-auto bg-gradient-to-r from-[#FA5252] to-[#DD2476] duration-200 transition ease-linear hover:bg-gradient-to-l from-[#DD2476]  to-[#fa5252ef] px-8 py-3 text-lg text-white rounded-[35px] mt-6">
-            <img src={downloadIcon} alt="icon" className="mr-2" />
-            Download CV
-          </button>*/}
+
         </div>
       </div>
     </div>

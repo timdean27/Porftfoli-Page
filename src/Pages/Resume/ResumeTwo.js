@@ -23,7 +23,7 @@ const ResumeTwo = () => {
               {/*Resume page title */}
               <h2 className="after-effect after:left-44">Resume</h2>
               <a
-              href="https://docs.google.com/document/d/1Jjnd8ohII9qCg0LtGIXJze725eRwi8Cu/edit"
+              href="https://docs.google.com/document/d/1MS_K-Ead2jcw-TG3Yg9GPnyi-aac15e1-FOI5Uer5jY/edit?usp=sharing"
               target="_blank"
               rel="noopener noreferrer"
             >

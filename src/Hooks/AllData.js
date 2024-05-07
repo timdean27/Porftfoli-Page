@@ -112,12 +112,6 @@ const AllData = () => {
     setIsOpen(true);
   };
 
-  // find items for Blogs  modal open
-  // const handleBlogsData = (id) => {
-  //   const find = blogsData.find((item) => item?.id === id);
-  //   setSingleData(find);
-  //   setIsOpen(true);
-  // };
 
   // Active navlinks function
   function NavLink({

@@ -11,9 +11,6 @@ import PageTitle from "../../Share/PageTitle";
 const HomeTwo = () => {
   const [menuOpen, setMenuOpen] = useState(false);
   const { handleTheme, check, menuItemTwo, NavLink } = UseData();
-  // const handle = (e) => {
-  //   handleTheme(e);
-  // };
   const a = useLocation();
   return (
     <>
@@ -28,30 +25,7 @@ const HomeTwo = () => {
         
         {/* website logo */}
           <div className="w-full flex justify-between  px-4">
-            
-
-            {/*<Link to="/">
-              <img className="h-[26px] lg:h-[32px]" src={logo} alt="logo" />
-            </Link>*/}
             <div className="flex items-center">
-              {/* dark and light mode button */}
-{/*
-              {!check ? (
-                <span
-                  onClick={() => handle("dark")}
-                  className="bg-white w-[40px] h-[40px] lg:w-[50px] lg:h-[50px] rounded-full flex justify-center items-center hover:bg-[#ef4060] text-black hover:text-white transition-all duration-300 ease-in-out cursor-pointer  "
-                >
-                  <FiMoon className=" text-3xl " />
-                </span> 
-              ) : (
-                <span
-                  onClick={() => handle("light")}
-                  className="bg-[#4D4D4D] w-[40px] h-[40px] lg:w-[50px] lg:h-[50px] rounded-full flex justify-center items-center hover:bg-[#ef4060] transition-all duration-300 ease-in-out cursor-pointer  "
-                >
-                  <FiSun className="text-white text-3xl" />
-                </span>
-              )}
-*/}
               {/* mobile menu button */}
 
               {!menuOpen ? (
@@ -102,25 +76,6 @@ const HomeTwo = () => {
                 </NavLink>
               </li>
             ))}
-
-            {/* mobile dark and light mode button */}
-            {/*
-            {!check ? (
-              <span
-                onClick={() => handle("dark")}
-                className="bg-white text-black hover:text-white w-[40px] hidden  h-[40px] rounded-full lg:flex justify-center items-center  hover:bg-[#ef4060] transition-all duration-300 ease-in-out cursor-pointer "
-              >
-                <FiMoon className=" text-3xl " />
-              </span>
-            ) : (
-              <span
-                onClick={() => handle("light")}
-                className="bg-black w-[40px] h-[40px] hidden  rounded-full lg:flex justify-center items-center   hover:bg-[#ef4060] transition-all duration-300 ease-in-out cursor-pointer "
-              >
-                <FiSun className="text-white text-3xl" />
-              </span>
-            )}
-          */}
           </ul>
         </nav>
         <div className="container grid grid-cols-12 md:gap-10  justify-between lg:mt-[220px] ">
