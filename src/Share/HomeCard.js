@@ -1,18 +1,12 @@
 import React from "react";
 import {
-  FaCalendarAlt,
-  FaDribbble,
   FaGithub,
   FaEnvelopeOpenText,
-  FaFacebookF,
   FaLinkedinIn,
   FaMapMarkerAlt,
-  FaMobileAlt,
-  FaTwitter,
   FaRegFileAlt,
 } from "react-icons/fa";
 import ProfilePicTwo from "../assets/images/about/ProfilePicTwo.jpg";
-import downloadIcon from "../assets/images/download.png";
 
 const HomeCard = () => {
   return (
