@@ -27,20 +27,23 @@ const AboutTwo = () => {
             <div className="lg:grid grid-cols-12 md:gap-10 pt-4 md:pt-[30px] items-center hidden ">
               <div className="col-span-12 space-y-2.5">
                 <div className="lg:mr-16">
-                  <p className="text-gray-lite  dark:text-color-910 leading-7">
-                  I’m excited about moving to a career in Software Development from my current role as an insurance underwriter / administrator. 
-              
+                  <p className="text-gray-lite dark:text-color-910 leading-7">
+                    I'm Timothy Dean, an innovative Software Engineer and Full
+                    Stack Developer from East Northport, NY. With a strong
+                    background in database administration and QA, I excel in
+                    designing, developing, and implementing impactful products
+                    that drive organizational growth.
                   </p>
-                  
-                  <p className="text-gray-lite leading-7 mt-2.5 dark:text-color-910">
-                  I’m looking for a high-energy environment with an opportunity to work alongside a team of colleagues to create useful,
-                  innovative, and exciting products using my technical skills and business experience.
-                  </p>
-                  <p className="text-gray-lite leading-7 mt-2.5 dark:text-color-910">
-                  I thoroughly enjoyed my bootcamp training at General Assembly, 
-                  and can’t wait to begin working and utilizing my new skills.
+                  <p className="text-gray-lite dark:text-color-910 leading-7">
+                    I have extensive experience in technologies such as React,
+                    Python, and PostgreSQL and have consistently taken on
+                    leadership roles in code review and software testing. My
+                    ability to collaborate, solve problems, and adapt to new
+                    challenges makes me a valuable asset to any development
+                    team.
                   </p>
                 </div>
+
                 <div></div>
               </div>
             </div>
@@ -60,8 +63,8 @@ const AboutTwo = () => {
             </div>
           </div>
           {/* service provide end */}
- {/* Slick Slider call here  */}
-           {/* <div className="px-2 sm:px-5 md:px-10 lg:px-14 ">
+          {/* Slick Slider call here  */}
+          {/* <div className="px-2 sm:px-5 md:px-10 lg:px-14 ">
            
             <SliderCommon />
           </div> */}
