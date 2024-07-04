@@ -1,29 +1,11 @@
 import { useEffect, useState } from "react";
 // for work_images
-import work1 from "../assets/images/work_images/1.jpg";
-import work2 from "../assets/images/work_images/2.jpg";
-import work3 from "../assets/images/work_images/3.jpg";
-import work4 from "../assets/images/work_images/4.jpg";
-import work5 from "../assets/images/work_images/5.jpg";
-import work6 from "../assets/images/work_images/6.jpg";
-import work7 from "../assets/images/work_images/7.jpg";
-import work8 from "../assets/images/work_images/8.jpg";
-import work9 from "../assets/images/work_images/9.jpg";
+
 import fooder1 from "../assets/images/work_images/fooder1.gif";
 import checkers from "../assets/images/work_images/Checkersgiphy - Copy.gif";
 import profolio from "../assets/images/work_images/Pro-folio-app - Copy.gif";
 import sneakers from "../assets/images/work_images/SneakersAppgiphy - Copy.gif";
-// works small images
-import workSmall1 from "../assets/images/work_images/small/1.jpg";
-import workSmall2 from "../assets/images/work_images/small/2.jpg";
-import workSmall3 from "../assets/images/work_images/small/3.jpg";
-import workSmall4 from "../assets/images/work_images/small/4.jpg";
-import workSmall5 from "../assets/images/work_images/small/5.jpg";
-import workSmall6 from "../assets/images/work_images/small/6.jpg";
-import workSmall7 from "../assets/images/work_images/small/7.jpg";
-import workSmall8 from "../assets/images/work_images/small/8.jpg";
-import workSmall9 from "../assets/images/work_images/small/9.jpg";
-
+import Church_concert_Gif from "../assets/images/work_images/Church_concert_Gif.gif";
 //  icon use as img here
 import javascript from "../assets/images/icons/javascript.svg";
 import bootstrap from "../assets/images/icons/bootstrap.svg";
@@ -37,12 +19,6 @@ import mongodb from "../assets/images/icons/mongodb.svg";
 import django from "../assets/images/icons/django.svg";
 import github from "../assets/images/icons/github.svg";
 
-import icon from "../assets/images/icons/icon-1.svg";
-import icon1 from "../assets/images/icons/icon-2.svg";
-import icon2 from "../assets/images/icons/icon-3.svg";
-import icon3 from "../assets/images/icons/icon-4.svg";
-import icon4 from "../assets/images/icons/icon-5.svg";
-import icon5 from "../assets/images/icons/icon-6.svg";
 // contact image
 import iconPhone from "../assets/images/contact/phone-call 1.png";
 import iconEmail from "../assets/images/contact/email 1.png";
@@ -133,11 +109,26 @@ const AllData = () => {
     {
       id: "1",
       tag: "Web Design",
+      title: "GreenLawn Church Concert",
+      img: Church_concert_Gif,
+      imgSmall: Church_concert_Gif,
+      bg: "#E9FAFF",
+      langages: "Js, Python , React , Django , Express , Docker , AWS",
+      link: "https://github.com/timdean27/Ticket_sales_front",
+      linkText: "Github Front",
+      github:"https://github.com/timdean27/Ticket_sales_back" ,
+      githubText:"Github Back",
+      description: "Full Stack Engineer |Freelance| Ticketing Webpage for Local Church\nReact, JavaScript, Django, Python, Express, Node.js, mySQL, Docker, AWS| Front-End|Back-End|Paypal\n● Built a dynamic website for a local church to help sell concert tickets to raise money for the church\n● Full stack website with react frontend built with Vite, back end restful API on Django with mySQL database\n● Connected to PayPal through express router\n● mySQL server on amazon RDS (Relational Database Service)\n● Hosted and connected backends frontend through docker hub and amazon EC2 cloud instances"
+
+    },
+    {
+      id: "2",
+      tag: "Web Design",
       title: "Just Checkers",
       img: checkers,
       imgSmall: checkers,
       bg: "#FFF0F0",
-      //client: "Envato",
+  
       langages: "JavaScript, CSS3, HTML5",
       link: "https://timdean27.github.io/Checkers-Just-Checkers-/",
       linkText: "Just-Checkers",
@@ -147,7 +138,7 @@ const AllData = () => {
         "Included all features of a standard two-player game of checkers including multiple jumps, promotion to King and two-directional play for Kings. It also tracks player turns and captured pieces.",
     },
     {
-      id: "2",
+      id: "3",
       tag: "Web Design",
       title: "Try FooDer",
       img: fooder1,
@@ -163,7 +154,7 @@ const AllData = () => {
         "Sole developer for this application which allows users to select restaurants by food type, price and distance. Django/Postgres backend and and Express proxy route for API calls to Yelp",
     },
     {
-      id: "3",
+      id: "4",
       tag: "Web Design",
       title: "Sneakers-Collection-App",
       img: sneakers,
@@ -178,58 +169,10 @@ const AllData = () => {
       description:
         "  As a personal collecter/reseller of sneakers I wanted to create an app that will let me categorize, add, update, and delete sneakers in my collection/inventory as well as a page to keep track of upcoming releases.I also wanted to keep some minor accounting information to track when the sneaker was sold, for how much, and if the sale was profitable.",
     },
-    {
-      id: "4",
-      tag: "Web Design",
-      title: "Profolio",
-      img: profolio,
-      imgSmall: profolio,
-      bg: "#E9FAFF",
-      client: "Envato",
-      langages: "React.js,Expres,emailJS",
-      link: "https://pro-folio-njt.netlify.app/",
-      linkText: "Profolio",
-      github:"https://github.com/timdean27/Pro-folio_frontend",
-      githubText:"Profolio Front End Github",
-      description:
-        "Personal Project Management. The application will create a way for our team, as well as other developers, to market themselves through an app that is designed to showcase your personal projects all on one main page with links to individual project pages. The app will contain contact information including links to resumes, cover letters, gitHub, LinkedIn, etc.",
-    },
   ];
   const [data, setData] = useState(workItems);
 
 
-  const menuItem = [
-    {
-      id: "01",
-      name: "Home",
-      link: "/home/homePage",
-      icon: <AiOutlineHome />,
-    },
-    {
-      id: "02",
-      name: "About",
-      link: "/home/about",
-      icon: <FaRegUser />,
-    },
-    {
-      id: "06",
-      name: "Resume",
-      link: "/home/resume",
-      icon: <CgNotes />,
-    },
-    {
-      id: "03",
-      name: "Projects",
-      link: "/home/projects",
-      icon: <FiCodesandbox />,
-    },
-    {
-      id: "05",
-      name: "Contact",
-      link: "/home/contact",
-      icon: <RiContactsBookLine />,
-    },
-  ];
 
   // Menu items for Homepage Two
   const menuItemTwo = [
@@ -434,7 +377,7 @@ const AllData = () => {
     handleModelData,
     isOpen,
     setIsOpen,
-    menuItem,
+
     NavLink,
     menuItemTwo,
     experienceArray,
